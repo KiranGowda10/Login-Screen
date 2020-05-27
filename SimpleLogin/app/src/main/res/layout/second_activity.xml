@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second_Class">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <EditText
+            android:id="@+id/txtUserName2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:autofillHints="@string/txtUserName2"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/txtUserName2" />
+
+        <EditText
+            android:id="@+id/txtPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:autofillHints="@string/txtPassword2"
+            android:ems="10"
+            android:hint="@string/txtPassword2"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/txtRe-Password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:autofillHints="@string/txtRePassword"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/txtRePassword" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:autofillHints="@string/txtEmail"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="@string/txtEmail" />
+
+        <EditText
+            android:id="@+id/numPhone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:autofillHints="@string/numPhone"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="@string/numPhone"/>
+
+        <Button
+            android:id="@+id/btnSignup2"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="60dp"
+            android:text="@string/btnSignup2"
+            android:textSize="20sp"
+            android:background="@android:color/holo_blue_dark"/>
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
